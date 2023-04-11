@@ -1,0 +1,1 @@
+Dir["pumarelic/**/*.rb"].each {|file| require file }
