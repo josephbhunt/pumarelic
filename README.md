@@ -1,6 +1,6 @@
 # pumarelic
 
-## How to install
+## Instalation
 Using gems
 ```
 gem i pumarelic
@@ -12,8 +12,6 @@ in Gemfile
 ```
 gem 'pumarelic'
 ```
-
-## How to use it
 
 in your puma.rb config file
 ```
