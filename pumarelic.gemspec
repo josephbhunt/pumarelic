@@ -1,6 +1,8 @@
+require './lib/version'
+
 Gem::Specification.new do |s|
   s.name        = "pumarelic"
-  s.version     = "0.1.0"
+  s.version     = VERSION
   s.summary     = "Publish puma specific stats to New Relic"
   s.description = "This gem will publish puma specific stats to New Relic"
   s.authors     = ["Joe Hunt"]
