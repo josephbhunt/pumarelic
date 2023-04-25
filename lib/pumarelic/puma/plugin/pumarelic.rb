@@ -1,5 +1,6 @@
 require "puma"
 require "puma/plugin"
+
 require_relative "../stats_collector/stats_collector"
 
 Puma::Plugin.create do

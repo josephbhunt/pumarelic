@@ -1,0 +1,545 @@
+# Logfile created on 2023-04-24 04:52:06 +0000 by logger.rb/v1.5.3
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] WARN : No configuration file found. Working directory = /app
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Environment: development
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : No known dispatcher detected.
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Application: development
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Installing Fiber instrumentation
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Installing Logger instrumentation
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Installing Net:HTTP Wrappers
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Installing Thread Instrumentation
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-24 04:52:06 +0000 9674947cb556 (78)] INFO : Finished instrumentation
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] WARN : No configuration file found. Working directory = /app
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Environment: development
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : No known dispatcher detected.
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Application: development
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Installing Fiber instrumentation
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Installing Logger instrumentation
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Installing Net:HTTP Wrappers
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Installing Thread Instrumentation
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-24 04:53:33 +0000 9674947cb556 (85)] INFO : Finished instrumentation
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] WARN : No configuration file found. Working directory = /app
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Environment: development
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : No known dispatcher detected.
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Application: development
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Installing Fiber instrumentation
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Installing Logger instrumentation
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Installing Net:HTTP Wrappers
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Installing Thread Instrumentation
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-24 04:54:50 +0000 9674947cb556 (92)] INFO : Finished instrumentation
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] WARN : No configuration file found. Working directory = /app
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Environment: development
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : No known dispatcher detected.
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Application: development
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Installing Fiber instrumentation
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Installing Logger instrumentation
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Installing Net:HTTP Wrappers
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Installing Thread Instrumentation
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-24 04:56:04 +0000 9674947cb556 (99)] INFO : Finished instrumentation
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] WARN : No configuration file found. Working directory = /app
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Environment: development
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : No known dispatcher detected.
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Application: development
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Installing Fiber instrumentation
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Installing Logger instrumentation
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Installing Net:HTTP Wrappers
+[2023-04-24 04:57:12 +0000 9674947cb556 (106)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-24 04:57:13 +0000 9674947cb556 (106)] INFO : Installing Thread Instrumentation
+[2023-04-24 04:57:13 +0000 9674947cb556 (106)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-24 04:57:13 +0000 9674947cb556 (106)] INFO : Finished instrumentation
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] WARN : No configuration file found. Working directory = /app
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Environment: development
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : No known dispatcher detected.
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Application: development
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Installing Fiber instrumentation
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Installing Logger instrumentation
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Installing Net:HTTP Wrappers
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Installing Thread Instrumentation
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-24 04:57:31 +0000 9674947cb556 (113)] INFO : Finished instrumentation
+[2023-04-24 04:58:31 +0000 9674947cb556 (116)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-24 04:58:31 +0000 9674947cb556 (116)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-24 04:58:31 +0000 9674947cb556 (116)] WARN : No configuration file found. Working directory = /app
+[2023-04-24 04:58:31 +0000 9674947cb556 (116)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-24 04:58:31 +0000 9674947cb556 (116)] INFO : Environment: development
+[2023-04-24 04:58:31 +0000 9674947cb556 (116)] INFO : No known dispatcher detected.
+[2023-04-24 04:58:31 +0000 9674947cb556 (116)] INFO : Application: development
+[2023-04-24 04:58:31 +0000 9674947cb556 (116)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Installing Fiber instrumentation
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Installing Logger instrumentation
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Installing Net:HTTP Wrappers
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Installing Thread Instrumentation
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-24 04:58:32 +0000 9674947cb556 (116)] INFO : Finished instrumentation
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Environment: development
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : No known dispatcher detected.
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Application: development
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Installing Fiber instrumentation
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Installing Logger instrumentation
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Installing Thread Instrumentation
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 03:20:03 +0000 9674947cb556 (123)] INFO : Finished instrumentation
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Environment: development
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : No known dispatcher detected.
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Application: development
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Installing Fiber instrumentation
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Installing Logger instrumentation
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Installing Thread Instrumentation
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 03:23:22 +0000 9674947cb556 (130)] INFO : Finished instrumentation
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Environment: development
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : No known dispatcher detected.
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Application: development
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Installing Fiber instrumentation
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Installing Logger instrumentation
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Installing Thread Instrumentation
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 03:59:14 +0000 9674947cb556 (144)] INFO : Finished instrumentation
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : Environment: development
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : No known dispatcher detected.
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : Application: development
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : Installing Logger instrumentation
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:12:55 +0000 9674947cb556 (165)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:12:56 +0000 9674947cb556 (165)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:12:56 +0000 9674947cb556 (165)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:12:56 +0000 9674947cb556 (165)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:12:56 +0000 9674947cb556 (165)] INFO : Finished instrumentation
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Environment: development
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : No known dispatcher detected.
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Application: development
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Installing Logger instrumentation
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:16:01 +0000 9674947cb556 (172)] INFO : Finished instrumentation
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Environment: development
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : No known dispatcher detected.
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Application: development
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Installing Logger instrumentation
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:18:50 +0000 9674947cb556 (179)] INFO : Finished instrumentation
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Environment: development
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : No known dispatcher detected.
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Application: development
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Installing Logger instrumentation
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:19:12 +0000 9674947cb556 (186)] INFO : Finished instrumentation
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Environment: development
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : No known dispatcher detected.
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Application: development
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Installing Logger instrumentation
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:20:08 +0000 9674947cb556 (193)] INFO : Finished instrumentation
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Environment: development
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : No known dispatcher detected.
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Application: development
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Installing Logger instrumentation
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:20:32 +0000 9674947cb556 (196)] INFO : Finished instrumentation
+[2023-04-25 04:22:13 +0000 9674947cb556 (203)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:22:13 +0000 9674947cb556 (203)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:22:13 +0000 9674947cb556 (203)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:22:13 +0000 9674947cb556 (203)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:22:13 +0000 9674947cb556 (203)] INFO : Environment: development
+[2023-04-25 04:22:13 +0000 9674947cb556 (203)] INFO : No known dispatcher detected.
+[2023-04-25 04:22:13 +0000 9674947cb556 (203)] INFO : Application: development
+[2023-04-25 04:22:13 +0000 9674947cb556 (203)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Installing Logger instrumentation
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:22:14 +0000 9674947cb556 (203)] INFO : Finished instrumentation
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Environment: development
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : No known dispatcher detected.
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Application: development
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Installing Logger instrumentation
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:42:10 +0000 9674947cb556 (210)] INFO : Finished instrumentation
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Environment: development
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : No known dispatcher detected.
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Application: development
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Installing Logger instrumentation
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:43:30 +0000 9674947cb556 (217)] INFO : Finished instrumentation
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Environment: development
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : No known dispatcher detected.
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Application: development
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Installing Logger instrumentation
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:44:57 +0000 9674947cb556 (224)] INFO : Finished instrumentation
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Environment: development
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : No known dispatcher detected.
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Application: development
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Installing Logger instrumentation
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:45:16 +0000 9674947cb556 (231)] INFO : Finished instrumentation
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Environment: development
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : No known dispatcher detected.
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Application: development
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Installing Logger instrumentation
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:45:39 +0000 9674947cb556 (238)] INFO : Finished instrumentation
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Environment: development
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : No known dispatcher detected.
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Application: development
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Installing Logger instrumentation
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:45:52 +0000 9674947cb556 (245)] INFO : Finished instrumentation
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Environment: development
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : No known dispatcher detected.
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Application: development
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Installing Logger instrumentation
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:46:31 +0000 9674947cb556 (252)] INFO : Finished instrumentation
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Environment: development
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : No known dispatcher detected.
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Application: development
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Installing Logger instrumentation
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:46:57 +0000 9674947cb556 (259)] INFO : Finished instrumentation
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Environment: development
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : No known dispatcher detected.
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Application: development
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Installing Logger instrumentation
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:47:42 +0000 9674947cb556 (266)] INFO : Finished instrumentation
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Environment: development
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : No known dispatcher detected.
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Application: development
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Installing Logger instrumentation
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:47:59 +0000 9674947cb556 (273)] INFO : Finished instrumentation
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Environment: development
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : No known dispatcher detected.
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Application: development
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Installing Logger instrumentation
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:48:41 +0000 9674947cb556 (280)] INFO : Finished instrumentation
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Environment: development
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : No known dispatcher detected.
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Application: development
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Installing Logger instrumentation
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:48:58 +0000 9674947cb556 (287)] INFO : Finished instrumentation
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Environment: development
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : No known dispatcher detected.
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Application: development
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Installing Logger instrumentation
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:49:17 +0000 9674947cb556 (294)] INFO : Finished instrumentation
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Environment: development
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : No known dispatcher detected.
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Application: development
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Installing Logger instrumentation
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:50:17 +0000 9674947cb556 (301)] INFO : Finished instrumentation
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] WARN : No configuration file found. Working directory = /app
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Environment: development
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : No known dispatcher detected.
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Application: development
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing Fiber instrumentation
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing Logger instrumentation
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing Net:HTTP Wrappers
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing Thread Instrumentation
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Finished instrumentation

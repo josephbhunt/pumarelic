@@ -1,5 +1,3 @@
-require 'newrelic_rpm'
-
 class StatsCollector
 
   def initialize(launcher)

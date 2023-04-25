@@ -1,1 +1,3 @@
-Dir["pumarelic/**/*.rb"].each {|file| require file }
+require 'newrelic_rpm'
+
+Dir["#{File.dirname(__FILE__)}/pumarelic/**/*.rb"].each { |f| require f }
