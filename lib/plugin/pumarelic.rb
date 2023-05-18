@@ -1,7 +1,7 @@
 require "puma"
 require "puma/plugin"
 
-require_relative "./pumarelic/stats_collector"
+require_relative "../pumarelic/stats_collector"
 
 Puma::Plugin.create do
   def start(launcher)
