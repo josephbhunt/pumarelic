@@ -543,3 +543,37 @@
 [2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing Thread Instrumentation
 [2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
 [2023-04-25 04:50:41 +0000 9674947cb556 (308)] INFO : Finished instrumentation
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] WARN : No configuration file found. Working directory = /app
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Environment: development
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : No known dispatcher detected.
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Application: development
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Installing Fiber instrumentation
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Installing Logger instrumentation
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Installing Net:HTTP Wrappers
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Installing Thread Instrumentation
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-04-28 04:11:15 +0000 58fb6ac1f9a6 (18)] INFO : Finished instrumentation
+[2023-05-18 22:03:38 +0000 d866f177c6ab (17)] INFO : Starting the New Relic agent version 9.2.0 in "development" environment.
+[2023-05-18 22:03:38 +0000 d866f177c6ab (17)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-05-18 22:03:38 +0000 d866f177c6ab (17)] WARN : No configuration file found. Working directory = /app
+[2023-05-18 22:03:38 +0000 d866f177c6ab (17)] WARN : Looked in these locations (based on defaults): /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /app/config/newrelic.yml, /app/newrelic.yml, /app/config/newrelic.yml.erb, /app/newrelic.yml.erb, /root/.newrelic/newrelic.yml, /root/newrelic.yml, /root/.newrelic/newrelic.yml.erb, /root/newrelic.yml.erb
+[2023-05-18 22:03:38 +0000 d866f177c6ab (17)] INFO : Environment: development
+[2023-05-18 22:03:38 +0000 d866f177c6ab (17)] INFO : No known dispatcher detected.
+[2023-05-18 22:03:38 +0000 d866f177c6ab (17)] INFO : Application: development
+[2023-05-18 22:03:38 +0000 d866f177c6ab (17)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Installing Fiber instrumentation
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Installing Logger instrumentation
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Installing Net:HTTP Wrappers
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Installing Thread Instrumentation
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2023-05-18 22:03:39 +0000 d866f177c6ab (17)] INFO : Finished instrumentation
